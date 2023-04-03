@@ -9,5 +9,3 @@ var animale_terzo = 'leone';
 console.log(animale);
 console.log(animaleSecondo);
 console.log(animale_terzo);
-
-document.write("")
