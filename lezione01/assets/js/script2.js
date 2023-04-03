@@ -10,4 +10,4 @@ console.log(animale);
 console.log(animalesecondo);
 console.log(animaleterzo);
 
-document.write('')
+document.write("")
