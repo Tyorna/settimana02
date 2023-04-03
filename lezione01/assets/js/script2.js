@@ -4,10 +4,10 @@ document.getElementById('testodue').innerHTML='<h2 class="grasso">pantera scritt
 
 
 var animale = 'criceto';
-var animalesecondo = 'giraffa';
-var animaleterzo = 'leone';
+var animaleSecondo = 'giraffa';
+var animale_terzo = 'leone';
 console.log(animale);
-console.log(animalesecondo);
-console.log(animaleterzo);
+console.log(animaleSecondo);
+console.log(animale_terzo);
 
 document.write("")
