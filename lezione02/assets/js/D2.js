@@ -19,7 +19,9 @@ document.getElementById('testo').innerHTML= 'Abbiamo dei principali datatype in 
 */
 
 var name = 'Francesca';
-document.getElementById('nome').innerHTML= name;
+document.getElementById('nome').innerHTML= 'Il mio nome è ' + name;
+
+//metto in console
 console.log(name);
 
 /* ESERCIZIO 3
@@ -30,8 +32,11 @@ var numero = 12;
 var numero2= 20;
 var somma = numero + numero2;
 var somma2 = 12 + 20; 
-document.getElementById('scrivi').innerHTML= somma;
-document.getElementById('scrivi2').innerHTML= somma2;
+document.getElementById('scrivi').innerHTML= 'Primo modo: 12 + 20 fa: ' + somma;
+document.getElementById('scrivi2').innerHTML= 'Secondo modo: 12 + 20 fa: ' + somma2;
+document.getElementById('scrivi3').innerHTML=  12 + 20;
+
+//metto in console
 console.log(somma);
 console.log(somma2);
 
@@ -40,7 +45,9 @@ console.log(somma2);
 */
 
 var x = 12;
-document.getElementById('x').innerHTML= x;
+document.getElementById('x').innerHTML= 'Il valore di x è ' + x;
+
+//metto in console
 console.log(x);
 
 /* ESERCIZIO 5
@@ -49,11 +56,15 @@ console.log(x);
 */
 
 var name = 'Arata'
-document.getElementById('cognome').innerHTML=  name;
+document.getElementById('cognome').innerHTML= 'Il mio cognome è ' + name;
+
+//metto in console
 console.log(name);
 
 const Pet = 'gatto';
-document.getElementById('cos').innerHTML=  Pet;
+document.getElementById('cos').innerHTML= 'Ho un ' +  Pet;
+
+document.getElementById('cos2').innerHTML = "Non si può riassegnare un valore ad una costante. Compare un errore che mi blocca lo script. Si può vedere decommentando le righe sotto questa nello Js";
 /*
   const Pet = 'cane';
 document.getElementById('cos').innerHTML= Pet;
@@ -66,8 +77,10 @@ document.getElementById('cos').innerHTML= Pet;
 
 var numero4 = 4
 var sottrazione = numero4 - x;
-document.getElementById('sott').innerHTML= sottrazione;
-document.getElementById('sott2').innerHTML= 4 -x;
+document.getElementById('sott').innerHTML= 'Primo modo: 4 - 12 fa: ' + sottrazione;
+document.getElementById('sott2').innerHTML=  4 - x;
+
+//metto in console
 var sott = document.getElementById('sott2').innerHTML= 4 -x;
 console.log(sott);
 
@@ -80,14 +93,24 @@ console.log(sott);
 var name1 = 'john';
 var name2 = 'John';
 
-document.getElementById('ugual').innerHTML= name1 == name2;
+document.getElementById('ugual').innerHTML=  name1 == name2;
 document.getElementById('ugual2').innerHTML= name1 != name2;
+
+//metto in console
 
 var falso = document.getElementById('ugual').innerHTML= name1 == name2;
 var vero = document.getElementById('ugual2').innerHTML= name1 != name2;
 
 console.log(falso);
 console.log(vero);
+
+//con la scritta
+var nome4 = 'john e John sono uguali: ';
+var nome5 = name1 == name2;
+document.getElementById('ugual3').innerHTML=  nome4 + nome5;
+
+var nome6 = name1 != name2;
+document.getElementById('ugual4').innerHTML=  nome4 + nome6;
 
 
 //extra
@@ -96,15 +119,17 @@ name2.toLowerCase();
 document.getElementById('extra').innerHTML= name1 == name2;
 document.getElementById('extra2').innerHTML= name1 != name2;
 
-var vero2 = document.getElementById('extra').innerHTML= name1 == name2;
-var falso2 = document.getElementById('extra2').innerHTML= name1 != name2;
 
-console.log(vero2);
-console.log(falso2);
 
+//altro metodo
 name3 = name2.toLowerCase();
 document.getElementById('extra3').innerHTML= name1 == name3;
 document.getElementById('extra4').innerHTML= name1 != name3;
 
+//metto in console
 
+var vero2 = document.getElementById('extra3').innerHTML= name1 == name3;
+var falso2 = document.getElementById('extra4').innerHTML= name1 != name3;
 
+console.log(vero2);
+console.log(falso2);
