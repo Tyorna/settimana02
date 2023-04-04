@@ -116,9 +116,8 @@ document.getElementById('ugual4').innerHTML=  nome7 + nome6;
 
 //extra
 
-name2.toLowerCase();
-document.getElementById('extra').innerHTML= name1 == name2;
-document.getElementById('extra2').innerHTML= name1 != name2;
+document.getElementById('extra').innerHTML= name1 == name2.toLowerCase();
+document.getElementById('extra2').innerHTML= name1 != name2.toLowerCase();
 
 
 
