@@ -105,13 +105,12 @@ console.log(falso);
 console.log(vero);
 
 //con la scritta
-var nome4 = 'john e John sono uguali: ';
-var nome7 = 'john e John non sono uguali: '
+
 var nome5 = name1 == name2;
-document.getElementById('ugual3').innerHTML=  nome4 + nome5;
+document.getElementById('ugual3').innerHTML=  'john e John sono uguali: '+ nome5;
 
 var nome6 = name1 != name2;
-document.getElementById('ugual4').innerHTML=  nome7 + nome6;
+document.getElementById('ugual4').innerHTML=  'john e John non sono uguali: ' + nome6;
 
 
 //extra
